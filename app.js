@@ -29,6 +29,7 @@ const showMeals = meals => {
             mealDiv.innerHTML = mealInfo
 
             searchResultsDiv.appendChild(mealDiv)
+            const mealName = document.getElementById('mealName').value = ''
         });
 
     } else {
